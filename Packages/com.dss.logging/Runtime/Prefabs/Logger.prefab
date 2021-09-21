@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1121105790219158844}
   - component: {fileID: 1121105790219158845}
   - component: {fileID: 1121105790219158818}
+  - component: {fileID: 5587994504544427967}
   m_Layer: 5
   m_Name: LoggerCanvas
   m_TagString: Untagged
@@ -58,7 +59,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 31
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &1121105790219158845
 MonoBehaviour:
@@ -100,6 +101,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!225 &5587994504544427967
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121105790219158816}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &6492492543022051567
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6492492543022051566
 RectTransform:
   m_ObjectHideFlags: 0
@@ -177,7 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
+  m_HorizontalFit: 0
   m_VerticalFit: 2
 --- !u!222 &6492492543022051562
 CanvasRenderer:
@@ -258,10 +271,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6807567743803247900}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a85834da23f074d0c8176600e67b8bc6, type: 3}
+  m_Script: {fileID: 11500000, guid: 55cd9506992c7484aba89a14e0cf2cee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   container: {fileID: 6492492543022051566}
-  logTextMeshPrefab: {fileID: 2224765852728825650, guid: e163202ac7e0b4b778d45b55c3a86e60, type: 3}
-  warningTextMeshPrefab: {fileID: 2224765852728825650, guid: ca3a0843f7df44c69927818f9c7ba844, type: 3}
-  errorTextMeshPrefab: {fileID: 2224765852728825650, guid: cf92efbd68edd4ba99ac2a4d293a6e50, type: 3}
+  logTextMeshPrefab: {fileID: 2224765852728825650, guid: 4220527efba62414ca99033e0114236f, type: 3}
+  warningTextMeshPrefab: {fileID: 2224765852728825650, guid: 4777999773a0c4f24ac48e44ce1587c0, type: 3}
+  errorTextMeshPrefab: {fileID: 2224765852728825650, guid: 5bcca65fcf02a4d70ace8e8ed69f5816, type: 3}

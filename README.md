@@ -1,8 +1,8 @@
-# unity-logging
+# Logging
 
 ## How To Install
 
-The caching package uses the [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) feature to import
+The logging package uses the [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) feature to import
 dependent packages. Please add the following sections to the package manifest
 file (`Packages/manifest.json`).
 

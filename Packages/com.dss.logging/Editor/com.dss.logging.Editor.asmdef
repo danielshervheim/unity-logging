@@ -2,8 +2,8 @@
     "name": "com.dss.logging.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:7ffd098cbeea940a5a5e4b6d7caab005",
-        "GUID:1197fe4eedcb44621b1fa8c7edd83964"
+        "GUID:1197fe4eedcb44621b1fa8c7edd83964",
+        "GUID:eb0f6773c343f4ae18f29f86af5dc341"
     ],
     "includePlatforms": [
         "Editor"
