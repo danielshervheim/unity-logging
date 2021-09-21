@@ -20,6 +20,6 @@
   "name": "com.dss.logging",
   "repository": "github:danielshervheim/unity-logging",
   "unity": "2019.1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "hideInEditor": false
 }

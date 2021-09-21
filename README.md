@@ -21,7 +21,7 @@ To the `dependencies` section:
 ```
 "com.unity.textmeshpro": "3.0.6",
 "com.dss.core-utils": "1.6.4",
-"com.dss.logging": "1.0.0"
+"com.dss.logging": "1.0.1"
 ```
 
 After changes, the manifest file should look like below:
@@ -38,7 +38,7 @@ After changes, the manifest file should look like below:
     "dependencies": {
         "com.unity.textmeshpro": "3.0.6",
         "com.dss.core-utils": "1.6.4",
-        "com.dss.logging": "1.0.0"
+        "com.dss.logging": "1.0.1"
         ...
 ```
 
