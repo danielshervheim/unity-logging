@@ -1,0 +1,19 @@
+{
+    "name": "com.dss.logging.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7ffd098cbeea940a5a5e4b6d7caab005",
+        "GUID:1197fe4eedcb44621b1fa8c7edd83964"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,4 +1,4 @@
-# unity-logging
+# Logging
 
 ## How To Install
 
